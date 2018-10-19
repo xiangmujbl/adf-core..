@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.jnj.adf</groupId>
+  <artifactId>adf-compute</artifactId>
+  <versioning>
+    <versions>
+      <version>0.3.04-0.3-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20180316054638</lastUpdated>
+  </versioning>
+</metadata>

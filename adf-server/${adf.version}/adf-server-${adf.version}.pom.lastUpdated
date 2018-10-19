@@ -1,0 +1,9 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sun Feb 04 10:27:45 CST 2018
+https\://eapnexus.jnj.com/nexus/content/groups/public/.error=Could not transfer artifact com.jnj.adf\:adf-server\:pom\:${adf.version} from/to eapnexus (https\://eapnexus.jnj.com/nexus/content/groups/public/)\: sun.security.validator.ValidatorException\: PKIX path building failed\: sun.security.provider.certpath.SunCertPathBuilderException\: unable to find valid certification path to requested target
+bbb254627eb8ea9c4a7bedccb3892a311492606d@default-eapnexus-https\://eapnexus.jnj.com/nexus/content/groups/public/.lastUpdated=1516950443797
+https\://repo.maven.apache.org/maven2/.lastUpdated=1517711265605
+http\://central.maven.org/maven2/.error=
+0a52ec57e1b9d494d66ae270f00fd40ca03dea62@default-eapnexus-https\://eapnexus.jnj.com/nexus/content/groups/public/.lastUpdated=1517711264558
+http\://central.maven.org/maven2/.lastUpdated=1517711263746
+https\://repo.maven.apache.org/maven2/.error=

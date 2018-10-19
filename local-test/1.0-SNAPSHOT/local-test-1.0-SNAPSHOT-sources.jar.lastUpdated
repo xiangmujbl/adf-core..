@@ -1,0 +1,12 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Jun 11 17:00:52 CST 2018
+http\://maven.aliyun.com/nexus/content/groups/public/.lastUpdated=1528707647385
+http\://packages.confluent.io/maven/.error=
+http\://repo.spring.io/release/.error=
+https\://eapnexus.jnj.com/nexus/content/groups/public/.error=Could not transfer artifact com.jnj.adf\:local-test\:jar\:sources\:1.0-SNAPSHOT from/to eapnexus (https\://eapnexus.jnj.com/nexus/content/groups/public/)\: sun.security.validator.ValidatorException\: PKIX path building failed\: sun.security.provider.certpath.SunCertPathBuilderException\: unable to find valid certification path to requested target
+http\://packages.confluent.io/maven/.lastUpdated=1528707652296
+http\://dist.gemstone.com/maven/release/.error=
+http\://maven.aliyun.com/nexus/content/groups/public/.error=
+http\://repo.spring.io/release/.lastUpdated=1528707648472
+http\://dist.gemstone.com/maven/release/.lastUpdated=1528707651249
+c96ba0f9de7e1734bb37f3e501578ddd9c0e21cc@default-eapnexus-https\://eapnexus.jnj.com/nexus/content/groups/public/.lastUpdated=1528707649842

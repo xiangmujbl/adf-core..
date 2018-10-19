@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.jnj.adf</groupId>
+		<artifactId>adf-mvp-parent</artifactId>
+		<version>0.3.04</version>
+	</parent>
+	
+	<artifactId>adf-test-framework</artifactId>
+	
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<skipTests>true</skipTests>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.jnj.adf</groupId>
+			<artifactId>adf-core</artifactId>
+			<version>0.3.04</version>
+		</dependency>
+		<dependency>
+			<groupId>com.jnj.adf</groupId>
+			<artifactId>adf-server</artifactId>
+			<version>0.3.04</version>
+		</dependency>
+		<!-- cucumber test -->
+		<dependency>
+			<groupId>info.cukes</groupId>
+			<artifactId>cucumber-java8</artifactId>
+			<version>1.2.5</version>
+		</dependency>
+		<dependency>
+			<groupId>info.cukes</groupId>
+			<artifactId>cucumber-junit</artifactId>
+			<version>1.2.5</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-aop</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-web</artifactId>
+		</dependency>
+		<!--spring-->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-test</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>commons-collections</groupId>
+			<artifactId>commons-collections</artifactId>
+			<version>3.2.1</version>
+		</dependency>
+		<dependency>
+			<groupId>info.cukes</groupId>
+			<artifactId>cucumber-core</artifactId>
+			<version>1.2.5</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpclient</artifactId>
+			<version>4.5.2</version>
+		</dependency>
+		 <dependency>
+			<groupId>commons-lang</groupId>
+			<artifactId>commons-lang</artifactId>
+		</dependency>
+	    <dependency>
+	      <groupId>org.apache.poi</groupId>
+	      <artifactId>poi-ooxml</artifactId>
+	      <version>3.13</version>
+	    </dependency>
+	    
+	    <dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>3.4.0</version>
+		</dependency>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>21.0</version>
+        </dependency>
+        <!--  
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>6.10</version>
+		</dependency>
+		-->
+		<dependency> 
+	        <groupId>xml-apis</groupId> 
+	        <artifactId>xml-apis</artifactId> 
+	        <version>1.4.01</version> 
+	    </dependency>  
+	</dependencies>	
+	<build>
+		<plugins>
+			<plugin>
+                <groupId>org.jacoco</groupId>
+                <artifactId>jacoco-maven-plugin</artifactId>
+                <configuration>
+                    <!-- The destination file for the code coverage report has to be set to the same value
+                     in the parent pom and in each module pom. Then JaCoCo will add up information in
+                     the same report, so that, it will give the cross-module code coverage. -->
+                    <destFile>${project.basedir}/../target/jacoco-it.exec</destFile>
+                </configuration>
+            </plugin>
+		</plugins>
+	</build>
+</project>

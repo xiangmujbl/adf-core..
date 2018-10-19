@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.jnj.adf</groupId>
+  <artifactId>adf-celocal-test</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20180613022753</lastUpdated>
+  </versioning>
+</metadata>

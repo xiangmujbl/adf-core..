@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.jnj.adf</groupId>
+    <artifactId>adf-compute-parent</artifactId>
+    <packaging>pom</packaging>
+    <version>0.3.04-0.3-SNAPSHOT</version>
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.test.failure.ignore>true</maven.test.failure.ignore>
+        <spring.framework.version>4.1.8.RELEASE</spring.framework.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <scala.version>2.11</scala.version>
+        <skipTests>true</skipTests>
+        <service.id></service.id>
+    </properties>
+    <modules>
+        <module>adf-compute-engine</module>
+        <module>adf-compute-cluster</module>
+        <module>adf-compute-test</module>
+        <module>adf-compute-client</module>
+        <module>adf-compute-cluster-protocol</module>
+        <module>adf-compute-java-execution-sample</module>
+        <!--<module>adf-compute-engine-ui</module>-->
+        <!--<module>adf-compute-testserver</module>-->
+        <!--<module>adf-compute-service</module>-->
+        <!--<module>adf-compute-status</module>-->
+    </modules>
+    <repositories>
+        <repository>
+            <id>eapnexus</id>
+            <name>EAPNexus release</name>
+            <url>https://eapnexus.jnj.com/nexus/content/repositories/releases/</url>
+        </repository>
+
+        <repository>
+            <id>central</id>
+            <name>central</name>
+            <url>http://central.maven.org/maven2/</url>
+        </repository>
+
+    </repositories>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.2</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+
+    </build>
+
+    <distributionManagement>
+        <repository>
+            <id>eapnexus</id>
+            <name>EAPNexus release</name>
+            <url>https://eapnexus.jnj.com/nexus/content/repositories/releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>eapnexus</id>
+            <name>EAPNexus snapshots</name>
+            <url>https://eapnexus.jnj.com/nexus/content/repositories/snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
+
+</project>

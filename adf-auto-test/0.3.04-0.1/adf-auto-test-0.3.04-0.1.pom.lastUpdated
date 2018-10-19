@@ -1,0 +1,17 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sun May 20 21:55:17 EDT 2018
+@default-spring-maven-snapshot-http\://repo.spring.io/snapshot/.lastUpdated=1526867717448
+5eeeb87f673259d71bf0fe77af7f89b54730989d@default-eapnexus-https\://eapnexus.jnj.com/nexus/content/groups/public/.lastUpdated=1526867717567
+http\://repo.spring.io/snapshot/.error=Could not transfer artifact com.jnj.adf\:adf-auto-test\:pom\:0.3.04-0.1 from/to spring-maven-snapshot (http\://repo.spring.io/snapshot)\: repo.spring.io
+@default-maven-central-http\://repo1.maven.org/maven2/.lastUpdated=1526867717406
+http\://packages.confluent.io/maven/.error=Could not transfer artifact com.jnj.adf\:adf-auto-test\:pom\:0.3.04-0.1 from/to confluent (http\://packages.confluent.io/maven/)\: packages.confluent.io
+http\://repo.spring.io/milestone/.error=Could not transfer artifact com.jnj.adf\:adf-auto-test\:pom\:0.3.04-0.1 from/to spring-maven-milestone (http\://repo.spring.io/milestone)\: repo.spring.io
+https\://eapnexus.jnj.com/nexus/content/groups/public/.error=Could not transfer artifact com.jnj.adf\:adf-auto-test\:pom\:0.3.04-0.1 from/to eapnexus (https\://eapnexus.jnj.com/nexus/content/groups/public/)\: eapnexus.jnj.com
+@default-spring-maven-plugins-release-http\://repo.spring.io/plugins-release/.lastUpdated=1526867717531
+@default-confluent-http\://packages.confluent.io/maven/.lastUpdated=1526867717604
+@default-jboss-public-repository-http\://repository.jboss.org/nexus/content/groups/public/.lastUpdated=1526867717374
+@default-spring-maven-milestone-http\://repo.spring.io/milestone/.lastUpdated=1526867717486
+http\://repo1.maven.org/maven2/.error=Could not transfer artifact com.jnj.adf\:adf-auto-test\:pom\:0.3.04-0.1 from/to maven-central (http\://repo1.maven.org/maven2)\: repo1.maven.org
+http\://repo.spring.io/plugins-release/.error=Could not transfer artifact com.jnj.adf\:adf-auto-test\:pom\:0.3.04-0.1 from/to spring-maven-plugins-release (http\://repo.spring.io/plugins-release)\: repo.spring.io
+@default-jboss-public-repository-group-http\://repository.jboss.org/nexus/content/groups/public/.lastUpdated=1526867717650
+http\://repository.jboss.org/nexus/content/groups/public/.error=Could not transfer artifact com.jnj.adf\:adf-auto-test\:pom\:0.3.04-0.1 from/to jboss-public-repository-group (http\://repository.jboss.org/nexus/content/groups/public)\: repository.jboss.org

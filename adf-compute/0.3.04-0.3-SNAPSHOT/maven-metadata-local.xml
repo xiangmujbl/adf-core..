@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>com.jnj.adf</groupId>
+  <artifactId>adf-compute</artifactId>
+  <version>0.3.04-0.3-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <localCopy>true</localCopy>
+    </snapshot>
+    <lastUpdated>20180316054638</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <classifier>wan-shuffle-function</classifier>
+        <extension>jar</extension>
+        <value>0.3.04-0.3-SNAPSHOT</value>
+        <updated>20180316054638</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>0.3.04-0.3-SNAPSHOT</value>
+        <updated>20180316054638</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.3.04-0.3-SNAPSHOT</value>
+        <updated>20180316054638</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>client-connector</classifier>
+        <extension>jar</extension>
+        <value>0.3.04-0.3-SNAPSHOT</value>
+        <updated>20180207053057</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

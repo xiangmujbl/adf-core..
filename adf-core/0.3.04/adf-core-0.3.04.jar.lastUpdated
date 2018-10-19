@@ -1,0 +1,17 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Thu Apr 19 15:12:58 CST 2018
+http\://maven.oschina.net/content/groups/public/.error=Could not transfer artifact com.jnj.adf\:adf-core\:jar\:0.3.04 from/to oschina (http\://maven.oschina.net/content/groups/public/)\: maven.oschina.net
+http\://repo.spring.io/snapshot/.lastUpdated=1524121973928
+http\://central.maven.org/maven2/.lastUpdated=1524121957320
+http\://repository.jboss.org/nexus/content/groups/public/.lastUpdated=1524121973074
+http\://repo.spring.io/snapshot/.error=
+http\://maven.aliyun.com/nexus/content/groups/public/.lastUpdated=1524121978630
+http\://repo.spring.io/milestone/.error=
+https\://eapnexus.jnj.com/nexus/content/groups/public/.lastUpdated=1514531997962
+http\://repo.spring.io/milestone/.lastUpdated=1524121974249
+http\://maven.aliyun.com/nexus/content/groups/public/.error=
+http\://repo.spring.io/plugins-release/.lastUpdated=1524121975783
+@default-oschina-http\://maven.oschina.net/content/groups/public/.lastUpdated=1524121973126
+http\://repo.spring.io/plugins-release/.error=
+http\://central.maven.org/maven2/.error=
+http\://repository.jboss.org/nexus/content/groups/public/.error=

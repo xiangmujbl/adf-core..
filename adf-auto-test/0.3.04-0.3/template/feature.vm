@@ -1,0 +1,58 @@
+@$!{featureEntity.project} #if($featureEntity.ticket)@$featureEntity.ticket#end
+
+Feature: $!{featureEntity.description} $!{featureEntity.ticket}
+
+#if($featureEntity.getScenList().size()>0)
+#foreach($scen in $featureEntity.scenList)
+@Scenario$scen.num
+Scenario: $scen.name
+
+#if($scen.description)
+    $scen.description
+
+    #end
+#foreach($rawRegion in $scen.rawRegions)
+    When I import "$rawRegion.path" by keyFields "$rawRegion.keys"
+        $rawRegion.fieldString
+    #foreach($raw in $rawRegion.valueStrList)
+    $raw
+    #end
+    And I wait "$rawRegion.path" Async Queue complete
+
+    #end
+    When I submit task with xml file "$featureEntity.xml" and execute file "$featureEntity.file"
+
+#foreach($viewRegion in $scen.viewRegions)
+    #if($viewRegion.path.contains('.tsv') || $viewRegion.path.contains('.csv') || $viewRegion.path.contains('.txt'))
+    Then A file is found on sink application with name "$viewRegion.path"
+
+    Then I check file data for filename "$viewRegion.path" by keyFields "$viewRegion.keys"
+    #else
+    Then I check region data "$viewRegion.path" by keyFields "$viewRegion.keys"
+    #end
+    $viewRegion.fieldString
+    #foreach($view in $viewRegion.valueStrList)
+    $view
+    #end
+
+    #if($featureEntity.countFlg && (!$viewRegion.path.contains('.tsv') && !$viewRegion.path.contains('.csv') && !$viewRegion.path.contains('.txt')))
+    Then I check the number of records region "$viewRegion.path" count "$viewRegion.values.size()"
+
+    #end
+#end
+    #if($scen.isView() && $featureEntity.compareCountFlg)
+    And I compare the number of records between "$scen.rawRegions.get(0).path" and "$scen.getViewStr()"
+    #end
+
+    And I delete the test data
+
+#foreach($viewRegion in $scen.viewRegions)
+    #if($viewRegion.path.contains('.tsv') || $viewRegion.path.contains('.csv') || $viewRegion.path.contains('.txt'))
+    And I will remove the test file on sink application "$viewRegion.path"
+    #else
+    And I will remove all data with region "$viewRegion.path"
+    #end
+
+    #end
+    #end
+#end

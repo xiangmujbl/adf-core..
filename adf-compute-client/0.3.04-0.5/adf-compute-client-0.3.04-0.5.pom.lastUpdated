@@ -1,0 +1,10 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Jul 09 16:55:14 CST 2018
+https\://eapnexus.jnj.com/nexus/content/groups/public/.error=Could not transfer artifact com.jnj.adf\:adf-compute-client\:pom\:0.3.04-0.5 from/to eapnexus (https\://eapnexus.jnj.com/nexus/content/groups/public/)\: eapnexus.jnj.com
+http\://packages.confluent.io/maven/.lastUpdated=1531122154247
+http\://packages.confluent.io/maven/.error=
+https\://repo.maven.apache.org/maven2/.lastUpdated=1531122154639
+http\://central.maven.org/maven2/.error=
+0a52ec57e1b9d494d66ae270f00fd40ca03dea62@default-eapnexus-https\://eapnexus.jnj.com/nexus/content/groups/public/.lastUpdated=1531126514063
+http\://central.maven.org/maven2/.lastUpdated=1531122153419
+https\://repo.maven.apache.org/maven2/.error=

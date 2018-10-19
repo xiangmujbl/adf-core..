@@ -1,0 +1,6 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Fri Mar 16 13:46:38 CST 2018
+adf-compute-0.3.04-0.3-SNAPSHOT.pom>=
+adf-compute-0.3.04-0.3-SNAPSHOT-client-connector.jar>=
+adf-compute-0.3.04-0.3-SNAPSHOT-wan-shuffle-function.jar>=
+adf-compute-0.3.04-0.3-SNAPSHOT.jar>=
